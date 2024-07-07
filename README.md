@@ -2,6 +2,9 @@
 
 This is a Trelloboard application built with Next.js, MySQL, Prisma, and Radix UI. Users can add, update, and delete tasks with statuses OPEN, IN_PROGRESS, and CLOSED. Users can change the status and add more details to tasks but cannot change the task name. The application also supports light and dark modes.
 
+![trelloboard](https://github.com/seAfnan/nextjs-trelloboard/assets/20145270/8b08b84a-ab3b-48dd-89f3-06e8a0aa0b1b)
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -17,7 +20,7 @@ Make sure you have the following installed on your system:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/trelloboard.git
+git clone https://github.com/seAfnan/trelloboard.git
 cd trelloboard
 ```
 
@@ -126,5 +129,3 @@ brew services start mysql
 3. **Set environment variables:**
 
 Ensure your `.env` file contains the correct paths for your MySQL setup. Update the `DATABASE_URL` with the appropriate credentials.
-
----
