@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body.dark {
+  /* Dark mode styles */
+  background-color: #1a202c;
+  color: #fff;
+}
+
+body.light {
+  /* Light mode styles */
+  background-color: #fff;
+  color: #000;
+}
+
+.hover-cell {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Dark theme styles for the hover effect */
+.dark-theme:hover {
+  background-color: #1a202c; /* Change to your dark theme color */
+}
+
+/* Light theme styles for the hover effect */
+.light-theme:hover {
+  background-color: #dddcdc; /* Change to your light theme color */
+}
+
