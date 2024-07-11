@@ -66,6 +66,7 @@ const TaskList = ({ tasks, handleEditTask, handleDeleteTask }: Props) => {
                   ? "In Progress"
                   : "Closed"}
               </Badge>
+              <Text size="1"> {task.createdAt.split("T")[0]}</Text>
             </Text>
             <Text as="div" color="gray" size="2" mt="3">
               {task.details}
